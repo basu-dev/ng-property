@@ -1,0 +1,36 @@
+{
+  "name": "ng-property",
+  "version": "0.0.1",
+  "description": "A decorator which empowers a normal property to cause change detection when its value is changed.",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zonejs",
+    "NgZone",
+    "Angular",
+    "ivy",
+    "angular without zone",
+    "no zone",
+    "angular-ivy",
+    "typescript",
+    "angular"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Basu Dev Adhikari <adbasudev54@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basu-dev/ng-property.git"
+  },
+  "bugs": {
+    "url": "https://github.com/basu-dev/ng-property.git/issues"
+  },
+  "peerDependencies": {
+    "@angular/core":">10"
+  }
+}
